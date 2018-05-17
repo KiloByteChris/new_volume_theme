@@ -1002,8 +1002,19 @@ header {
 }
 
 .site-description {
-	font-family: 'gugi';
+	font-family: 'gugi', 'tahoma', 'sans-serif';
 	font-size: 1.5em;
 	text-decoration: none;
 	text-align: center;
+}
+
+.menu-toggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+	font-size: 2em;
+	background-color: RGBA(0, 0, 0, 0);
+	border: none;
+	padding: -5px;
+	margin: -5px;
 }

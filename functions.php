@@ -128,8 +128,10 @@ function new_volume_scripts() {
 
 	// Google fonts
 	wp_enqueue_style( 'Gugi', 'https://fonts.googleapis.com/css?family=Gugi');
-
 	wp_enqueue_style( 'Nanum Gothic Coding', 'https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+
+	// Font Aweseome
+	wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
