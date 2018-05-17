@@ -614,15 +614,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
 }
 
 a:visited {
-	color: purple;
+	color: #222;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: #444;
 }
 
 a:focus {
@@ -981,4 +981,29 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/****************************************************************
+************************MAIN CSS*********************************
+*****************************************************************/
+
+/******************************HEADER*****************************/
+header {
+	background-color: RGBA(149, 189, 168, .8);
+	width: 100%;
+}
+
+.site-title {
+	font-family: 'gugi';
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.site-description {
+	font-family: 'gugi';
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
 }
