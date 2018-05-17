@@ -987,18 +987,25 @@ object {
 /****************************************************************
 ************************MAIN CSS*********************************
 *****************************************************************/
-
-/******************************HEADER*****************************/
+p {
+	font-family: "nanum gothic coding";
+}
+/****************************************************************
+******************************HEADER*****************************
+****************************************************************/
 header {
 	background-color: RGBA(149, 189, 168, .8);
 	width: 100%;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
 }
 
 .site-title {
-	font-family: 'gugi';
+	font-family: 'gugi', 'tahoma', 'sans-serif';
 	font-size: 2em;
 	text-decoration: none;
 	text-align: center;
+	color: #000
 }
 
 .site-description {
@@ -1006,6 +1013,13 @@ header {
 	font-size: 1.5em;
 	text-decoration: none;
 	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
 }
 
 .menu-toggle {
@@ -1017,4 +1031,40 @@ header {
 	border: none;
 	padding: -5px;
 	margin: -5px;
+}
+
+.menu-toggle:hover {
+	color: #ddd;
+}
+
+/*********************************************************
+******************** HOME PAGE ***************************
+*********************************************************/
+.home-page-content {
+	background-color: RGBA(240, 245, 242, .8);
+	width: 90%;
+	margin: 15px auto;
+	border-radius: 5px;
+}
+
+#home-title {
+	font-family: 'gugi', 'tahoma';
+	/* font-family: "nanum gothic coding"; */
+	font-weight: 300;
+	margin-left: 25px;
+	font-size: 1.5em;
+}
+
+.home-paragraph {
+	font-family: "nanum gothic coding";
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+
+/*********************************************************
+******************** Footer ***************************
+*********************************************************/
+.site-footer {
+	background-color: RGBA(149, 189, 168, .8);
 }
