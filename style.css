@@ -987,8 +987,26 @@ object {
 /****************************************************************
 ************************MAIN CSS*********************************
 *****************************************************************/
-p {
+.content-section {
+	background-color: RGBA(240, 245, 242, .8);
+	width: 90%;
+	margin: 15px auto;
+	border-radius: 5px;
+}
+
+.section-title {
+	font-family: 'gugi', 'tahoma';
+	/* font-family: "nanum gothic coding"; */
+	font-weight: 300;
+	margin-left: 25px;
+	font-size: 1.5em;
+}
+
+.content-section p {
 	font-family: "nanum gothic coding";
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 /****************************************************************
 ******************************HEADER*****************************
