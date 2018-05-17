@@ -1037,6 +1037,25 @@ a {
 	color: #ddd;
 }
 
+#primary-menu {
+	text-align: center;
+}
+
+#primary-menu li{
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 0 auto;
+	width: initial;
+}
+
+.main-navigation a {
+	display: inline-block;
+	margin: 0 auto;
+	width: initial;
+	float: left;
+	text-align: center;
+}
+
 /*********************************************************
 ******************** HOME PAGE ***************************
 *********************************************************/

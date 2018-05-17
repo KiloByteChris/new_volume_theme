@@ -1,0 +1,30 @@
+
+
+Change the mobile menu? vertical drop down style instead of inline header style
+
+------- HOME -------
+Content:
+    Create a summary of the entire website
+
+------- ABOUT -------
+Content:
+    Picture
+    Objective/about me
+    Qualifications
+    Education
+    Contact
+
+------- PORTFOLIO -------
+Content:
+    This Site
+    Andi's Site
+    Desolate Site
+
+------- BLOG -------
+
+------- CONTACT -------
+Content:
+    email
+    twitter
+    github
+    linkedin
