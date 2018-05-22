@@ -843,7 +843,7 @@ a:hover, a:active {
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	/* margin: 0 0 1.5em; */
 }
 
 .updated:not(.published) {
@@ -987,19 +987,39 @@ object {
 /****************************************************************
 ************************MAIN CSS*********************************
 *****************************************************************/
+main {
+	width: 100%;
+
+}
+
+article {
+	background-color: RGBA(240, 245, 242, .8);
+	width: 90%;
+	margin: 0px auto 30px;
+	border-radius: 5px;
+}
+
 .content-section {
 	background-color: RGBA(240, 245, 242, .8);
 	width: 90%;
-	margin: 15px auto;
+	margin: 10px auto;
 	border-radius: 5px;
+}
+
+.page-title {
+	margin-left: 20px;
+	padding-top: 10px;
+	font-size: 1.7em;
+	font-weight: 400;
 }
 
 .section-title {
 	font-family: 'gugi', 'tahoma';
-	/* font-family: "nanum gothic coding"; */
 	font-weight: 300;
-	margin-left: 25px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 	font-size: 1.5em;
+	padding-top: 10px;
 }
 
 .content-section p {
@@ -1007,6 +1027,8 @@ object {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 /****************************************************************
 ******************************HEADER*****************************
@@ -1077,6 +1099,7 @@ a {
 /*********************************************************
 ******************** HOME PAGE ***************************
 *********************************************************/
+/*
 .home-page-content {
 	background-color: RGBA(240, 245, 242, .8);
 	width: 90%;
@@ -1086,7 +1109,6 @@ a {
 
 #home-title {
 	font-family: 'gugi', 'tahoma';
-	/* font-family: "nanum gothic coding"; */
 	font-weight: 300;
 	margin-left: 25px;
 	font-size: 1.5em;
@@ -1097,16 +1119,12 @@ a {
 	margin-left: 40px;
 	margin-top: 10px;
 }
+*/
 
 /*********************************************************
 ******************** BLOG PAGE ***************************
 *********************************************************/
-article {
-	background-color: RGBA(240, 245, 242, .8);
-	width: 90%;
-	margin: 15px auto;
-	border-radius: 5px;
-}
+
 
 /*********************************************************
 ******************** Footer ***************************

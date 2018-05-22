@@ -11,6 +11,7 @@
 
 	<div class="entry-content portfolio-page-content">
 		<?php
+		the_title( '<h2 class="entry-title">', '</h2>' );
 		//the_content();
 		the_content( sprintf(
 			wp_kses(

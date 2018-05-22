@@ -28,3 +28,14 @@ Content:
     twitter
     github
     linkedin
+    contact form?
+
+
+
+----Notes 5/22/18-----
+-Rewrite the resume content.
+    -Maybe create dropdown buttons for the list of qualifications. Elaborate on the list.
+
+-Re-work the mobile menu. Fixed position at the top of the screen. Not a horizontal list.
+
+- When I'm done writing the css, move it in the document to where it really should be
