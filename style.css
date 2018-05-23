@@ -1006,10 +1006,17 @@ article {
 	border-radius: 5px;
 }
 
+h2 {
+	margin-left: 40px;
+	padding: 0px;
+	font-size: 1.7em;
+	font-weight: 500;
+}
+
 .page-title {
 	margin-left: 20px;
-	padding-top: 10px;
-	font-size: 1.7em;
+	padding: 10px;
+	font-size: 1.5em;
 	font-weight: 400;
 }
 
@@ -1018,7 +1025,7 @@ article {
 	font-weight: 300;
 	margin-left: 20px;
 	margin-bottom: 10px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding-top: 10px;
 }
 
@@ -1030,6 +1037,24 @@ article {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 }
+
+.content-section ul {
+	padding-bottom: 10px;
+}
+.content-section li {
+	margin-left: -20px;
+}
+
+.content-section a {
+	color: #207346;
+	font-weight: 600;
+}
+
+.content-section a:hover {
+	color: #38C779;
+	font-weight: 600;
+}
+
 /****************************************************************
 ******************************HEADER*****************************
 ****************************************************************/

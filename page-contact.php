@@ -16,6 +16,7 @@ get_header();
             get_template_part( 'template-parts/content', 'contact' );
 		endwhile; // End of the loop.
 		?>
+        <?php dynamic_sidebar( 'contact-form' ); ?>
     </main><!-- #main -->
 </div><!-- #primary -->
 <?php
