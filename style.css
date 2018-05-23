@@ -1000,7 +1000,7 @@ article {
 }
 
 .content-section {
-	background-color: RGBA(240, 245, 242, .8);
+	background-color: RGBA(240, 245, 242, .95);
 	width: 90%;
 	margin: 10px auto;
 	border-radius: 5px;
@@ -1055,15 +1055,33 @@ h2 {
 	font-weight: 600;
 }
 
-form {
+input {
+	margin-left: 5%;
 	width: 90%;
+}
+
+textarea {
+	margin-left: 5%;
+	width: 90%;
+}
+
+label {
+	margin-left: 5%;
+	font-weight: 600;
+}
+
+.wpcf7-submit {
+	width: 75px;
+	height: 40px;
 }
 
 /****************************************************************
 ******************************HEADER*****************************
 ****************************************************************/
 header {
-	background-color: RGBA(149, 189, 168, .8);
+	/* background-color: RGBA(149, 189, 168, .8); */
+	/* background-color: RGBA(117, 199, 153, .9); */
+	background-color: RGBA(141, 240, 184, .9);
 	width: 100%;
 	border-bottom: 1px solid #000;
 	border-top: 1px solid #000;
@@ -1153,6 +1171,45 @@ a {
 /*********************************************************
 ******************** BLOG PAGE ***************************
 *********************************************************/
+.entry-header {
+	margin-top: 20px;
+}
+
+.entry-title {
+	font-family: 'gugi', 'tahoma';
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.posted-on {
+	margin-left: 20px;
+	font-family: "nanum gothic coding";
+}
+
+/* .entry-content {
+	background-color: RGBA(240, 245, 242, .95);
+} */
+
+.entry-content p {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	background-color: RGBA(240, 245, 242, .95);
+	border-radius: 5px;
+	font-family: "nanum gothic coding";
+}
+
+.entry-content h3 {
+	font-family: 'gugi', 'tahoma';
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+main header {
+	border-radius: 5px 5px 0 0;
+}
 
 
 /*********************************************************
