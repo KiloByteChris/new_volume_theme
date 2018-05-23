@@ -1067,7 +1067,7 @@ textarea {
 
 label {
 	margin-left: 5%;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .wpcf7-submit {
@@ -1081,7 +1081,9 @@ label {
 header {
 	/* background-color: RGBA(149, 189, 168, .8); */
 	/* background-color: RGBA(117, 199, 153, .9); */
-	background-color: RGBA(141, 240, 184, .9);
+	/* background-color: RGBA(141, 240, 184, .9); */
+	background-color: RGBA(163, 207, 184, .9);
+
 	width: 100%;
 	border-bottom: 1px solid #000;
 	border-top: 1px solid #000;
@@ -1217,4 +1219,16 @@ main header {
 *********************************************************/
 .site-footer {
 	background-color: RGBA(149, 189, 168, .8);
+	font-family: "nanum gothic coding";
+}
+
+.site-info{
+	background-color: RGBA(240, 245, 242, .95);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.site-info p {
+	margin-left: 20px;
+	margin-right: 20px;
 }
