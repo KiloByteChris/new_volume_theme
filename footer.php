@@ -22,9 +22,9 @@
 					printf( esc_html__( 'Proudly powered by %s', 'new_volume' ), 'WordPress' );
 				?>
 				</a>
-			</p>
+
 			<!-- <span class="sep"> | </span> -->
-			<p>
+
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'new_volume' ), 'new_volume', '<a href="http://underscores.me/">Underscores.me</a>' );

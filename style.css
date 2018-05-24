@@ -1085,8 +1085,11 @@ article p {
 .content-section ul {
 	padding-bottom: 10px;
 }
+
 .content-section li {
-	margin-left: -20px;
+	/* margin-left: -20px; */
+	list-style-type: circle;
+	line-height: 1.5em;
 }
 
 .content-section a {
@@ -1192,6 +1195,14 @@ a {
 /*********************************************************
 ******************** HOME PAGE ***************************
 *********************************************************/
+#homeName {
+	font-family: 'gugi', 'tahoma';
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	line-height: 1.2em;
+}
 /*
 .home-page-content {
 	background-color: RGBA(240, 245, 242, .8);
@@ -1245,19 +1256,81 @@ a {
 	font-family: "nanum gothic coding";
 } */
 
-.entry-content h3 {
+section h3 {
 	font-family: 'gugi', 'tahoma';
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: -15px;
-	margin-bottom: -15px;
+	margin-top: 0px;
+}
+
+section h3:first-child{
+	padding-top: 10px;
+}
+
+section p:first-child{
+	padding-top: 10px;
 }
 
 main header {
 	border-radius: 5px 5px 0 0;
 }
 
+.entry-footer{
+	font-family: "nanum gothic coding";
+	margin-left: 15px;
+	padding-bottom: 10px;
+}
 
+.comments-link {
+	display: block;
+	font-weight: 500;
+}
+
+#archives-2, #categories-2 {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+aside {
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+/*********************************************************
+******************** SINGLE POST ***************************
+*********************************************************/
+.comments-title {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'gugi', 'tahoma';
+}
+
+.comment-body {
+	margin: 0px;
+}
+
+.comment-notes {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "nanum gothic coding";
+}
+
+.comment-form-cookies-consent {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "nanum gothic coding";
+}
+
+.form-submit {
+	font-family: "nanum gothic coding";
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+.submit {
+	width: inherit;
+}
 /*********************************************************
 ******************** Footer ***************************
 *********************************************************/
