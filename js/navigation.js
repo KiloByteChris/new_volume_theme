@@ -16,6 +16,7 @@
 	mainDim = document.getElementById('main');
 	headerDim = document.getElementById('masthead');
 	footerDim = document.getElementById('colophon');
+	asideDim = document.getElementById('secondary');
 
 	button = container.getElementsByTagName( 'button' )[0];
 	if ( 'undefined' === typeof button ) {
@@ -41,6 +42,7 @@
 			mainDim.className = mainDim.className.replace( ' dim', '' );
 			headerDim.className = headerDim.className.replace( ' dim', '' );
 			footerDim.className = footerDim.className.replace( ' dim', '' );
+			asideDim.className = asideDim.className.replace( ' dim', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
 		} else {
@@ -48,6 +50,7 @@
 			mainDim.className += ' dim';
 			headerDim.className += ' dim';
 			footerDim.className += ' dim';
+			asideDim.className += ' dim';
 			button.setAttribute( 'aria-expanded', 'true' );
 			menu.setAttribute( 'aria-expanded', 'true' );
 

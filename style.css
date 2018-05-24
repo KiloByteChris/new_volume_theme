@@ -691,7 +691,10 @@ a:hover, a:active {
 }
 
 /* Small menu. */
-.menu-toggle{}
+.menu-toggle{
+	z-index: 999;
+}
+
 .main-navigation.toggled ul {
 	position: fixed;
 	top: 25px;
@@ -1018,7 +1021,20 @@ article {
 	border-radius: 5px;
 }
 
-.content-section {
+section {
+	background-color: RGBA(240, 245, 242, .95);
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+/* .content-section {
+	background-color: RGBA(240, 245, 242, .95);
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px;
+} */
+
+aside {
 	background-color: RGBA(240, 245, 242, .95);
 	width: 90%;
 	margin: 10px auto;
@@ -1048,7 +1064,16 @@ h2 {
 	padding-top: 10px;
 }
 
-.content-section p {
+/* .content-section p {
+	font-family: "nanum gothic coding";
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+} */
+
+article p {
 	font-family: "nanum gothic coding";
 	margin-left: 20px;
 	margin-right: 20px;
@@ -1211,14 +1236,14 @@ a {
 	background-color: RGBA(240, 245, 242, .95);
 } */
 
-.entry-content p {
+/* .entry-content p {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 20px;
 	background-color: RGBA(240, 245, 242, .95);
 	border-radius: 5px;
 	font-family: "nanum gothic coding";
-}
+} */
 
 .entry-content h3 {
 	font-family: 'gugi', 'tahoma';

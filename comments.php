@@ -19,8 +19,9 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-
+<section>
 <div id="comments" class="comments-area">
+
 
 	<?php
 	// You can start editing here -- including this comment!
@@ -73,3 +74,4 @@ if ( post_password_required() ) {
 	?>
 
 </div><!-- #comments -->
+</section>
