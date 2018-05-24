@@ -481,7 +481,7 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	/* margin: 0 0 1.5em 3em; */
 }
 
 ul {
@@ -637,62 +637,81 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+	font-family: 'gugi', 'tahoma';
+	/* clear: both; */
+	/* display: block; */
+	/* float: left; */
+	/* width: 100%; */
 }
 
 .main-navigation ul {
 	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	/* list-style: none; */
+	/* margin: 0; */
+	/* padding-left: 0; */
 }
 
 .main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
 	top: 100%;
 	left: -999em;
-	z-index: 99999;
+	z-index: 99999; */
 }
 
 .main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
+	/* left: -999em;
+	top: 0; */
 }
 
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
-	left: 100%;
+	/* left: 100%; */
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	/* width: 200px; */
 }
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-	left: auto;
+	/* left: auto; */
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	/* float: left;
+	margin: 0 auto;
+	position: relative; */
 }
 
 .main-navigation a {
-	display: block;
-	text-decoration: none;
+	/* display: block;
+	text-decoration: none; */
 }
 
 /* Small menu. */
-.menu-toggle,
+.menu-toggle{}
 .main-navigation.toggled ul {
+	position: fixed;
+	top: 25px;
+	z-index: 999;
+	background-color: #eee;
 	display: block;
+	width: 100%;
+	/* margin-left: 5%;
+	margin-right: 5%; */
+	font-size: 2em;
+	list-style-type: none;
+	line-height: 2em;
+	/* margin: 0 auto; */
 }
+
+.dim {
+	opacity: .2;
+	transition: opacity .5s;
+}
+
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
@@ -1126,7 +1145,7 @@ a {
 	color: #ddd;
 }
 
-#primary-menu {
+/* #primary-menu {
 	text-align: center;
 }
 
@@ -1143,7 +1162,7 @@ a {
 	width: initial;
 	float: left;
 	text-align: center;
-}
+} */
 
 /*********************************************************
 ******************** HOME PAGE ***************************

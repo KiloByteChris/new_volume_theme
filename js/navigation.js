@@ -5,12 +5,17 @@
  * navigation support for dropdown menus.
  */
 ( function() {
-	var container, button, menu, links, i, len;
+	var container, button, menu, links, i, len, mainDim;
 
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container ) {
 		return;
 	}
+
+	// Select the main elements of the page so they can be dimmed when the menu is displayed.
+	mainDim = document.getElementById('main');
+	headerDim = document.getElementById('masthead');
+	footerDim = document.getElementById('colophon');
 
 	button = container.getElementsByTagName( 'button' )[0];
 	if ( 'undefined' === typeof button ) {
@@ -33,12 +38,19 @@
 	button.onclick = function() {
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
 			container.className = container.className.replace( ' toggled', '' );
+			mainDim.className = mainDim.className.replace( ' dim', '' );
+			headerDim.className = headerDim.className.replace( ' dim', '' );
+			footerDim.className = footerDim.className.replace( ' dim', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
 		} else {
 			container.className += ' toggled';
+			mainDim.className += ' dim';
+			headerDim.className += ' dim';
+			footerDim.className += ' dim';
 			button.setAttribute( 'aria-expanded', 'true' );
 			menu.setAttribute( 'aria-expanded', 'true' );
+
 		}
 	};
 
