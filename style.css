@@ -735,11 +735,14 @@ a:hover, a:active {
 		margin-top: 0px;
 	}
 
-	main,footer{
+	#colophon, #content{
 		width: 75% !important;
 		float: right;
 	}
 
+	.entry-footer {
+
+	}
 
 }
 
