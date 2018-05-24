@@ -16,7 +16,7 @@
 
 	<?php new_volume_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content hompage-section">
 		<?php
 		the_content();
 

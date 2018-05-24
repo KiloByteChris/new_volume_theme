@@ -723,8 +723,12 @@ a:hover, a:active {
 	.main-navigation ul {
 		display: block;
 		position: fixed;
-		top: 40%;
+		top: 30%;
 		z-index: 99999;
+	}
+
+	.site-description {
+		border-bottom: 1px solid #000;
 	}
 
 	#masthead {
@@ -733,6 +737,7 @@ a:hover, a:active {
 		height: 100%;
 		float: left;
 		margin-top: 0px;
+		border: 1px solid #000;
 	}
 
 	#colophon, #content{
@@ -740,6 +745,19 @@ a:hover, a:active {
 		float: right;
 	}
 
+	nav a {
+		font-size: 1.7em;
+	}
+
+	nav a:active {
+		font-size: 1.7em;
+		text-decoration: underline;
+	}
+
+	nav li {
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
 	.entry-footer {
 
 	}
@@ -1048,6 +1066,16 @@ section {
 	margin: 10px auto;
 	border-radius: 5px;
 }
+/* .homepage-article{
+	background-color: rgba(0,0,0,0) !important;
+	color: #000;
+	font-weight: 700;
+} */
+
+/* .homepage-article section{
+	background-color: RGBA(240, 245, 242, .8);
+} */
+
 /* .content-section {
 	background-color: RGBA(240, 245, 242, .95);
 	width: 90%;
@@ -1147,11 +1175,7 @@ label {
 ******************************HEADER*****************************
 ****************************************************************/
 header {
-	/* background-color: RGBA(149, 189, 168, .8); */
-	/* background-color: RGBA(117, 199, 153, .9); */
-	/* background-color: RGBA(141, 240, 184, .9); */
-	background-color: RGBA(163, 207, 184, .9);
-
+	background-color: RGBA(240, 245, 242, .95);
 	width: 100%;
 	border-bottom: 1px solid #000;
 	border-top: 1px solid #000;
@@ -1224,6 +1248,10 @@ a {
 	margin-bottom: -10px;
 	line-height: 1.2em;
 }
+
+.homepage-section {
+	opacity: 0;
+}
 /*
 .home-page-content {
 	background-color: RGBA(240, 245, 242, .8);
@@ -1257,6 +1285,7 @@ a {
 	font-family: 'gugi', 'tahoma';
 	margin-left: 20px;
 	margin-right: 20px;
+	border-bottom: 1px solid #000;
 }
 
 .posted-on {
@@ -1356,12 +1385,12 @@ aside {
 ******************** Footer ***************************
 *********************************************************/
 .site-footer {
-	background-color: RGBA(149, 189, 168, .8);
+	background-color: RGBA(240, 245, 242, .95);
 	font-family: "nanum gothic coding";
 }
 
 .site-info{
-	background-color: RGBA(240, 245, 242, .95);
+	/* background-color: RGBA(240, 245, 242, .95); */
 	margin-left: 10px;
 	margin-right: 10px;
 }

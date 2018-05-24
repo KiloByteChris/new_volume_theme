@@ -7,9 +7,9 @@
  * @package new_volume
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" class="homepage-article"<?php post_class(); ?>>
 
-	<div class="entry-content home-page-content">
+	<div id="home-page-content" class="entry-content home-page-content">
 		<?php
 		//the_content();
 		the_content( sprintf(
@@ -24,7 +24,7 @@
 			),
 			get_the_title()
 		) );
-		
+
 		// wp_link_pages( array(
 		// 	'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'new_volume' ),
 		// 	'after'  => '</div>',
