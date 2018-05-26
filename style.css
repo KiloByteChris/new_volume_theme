@@ -758,6 +758,28 @@ a:hover, a:active {
 		list-style-type: none;
 		margin-bottom: 10px;
 	}
+
+	a {
+		color: #3A2F8A;
+	}
+	.widget li a {
+		color: #3A2F8A;
+	}
+	.widget li a:hover {
+		color: #808080;
+		text-decoration: underline;
+	}
+
+	nav a:hover {
+		color: #808080;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #808080
+		text-decoration: underline;
+	}
+
 	.entry-footer {
 
 	}
@@ -1389,22 +1411,19 @@ aside {
 /*********************************************************
 ******************** WIDGET ***************************
 *********************************************************/
-.widget {
-}
-
-.widget-title {
+/* .widget-title {
 	margin-left: -40px;
 	font-family: 'gugi', 'tahoma';
 	margin-right: 20px;
 	font-weight: 300;
 	font-size: 1.2em;
 	padding-top: 10px;
-}
+} */
 
-.contact-info-ul {
+/* .contact-info-ul {
 	margin-left: -75px;
 	list-style-type: none;
-}
+} */
 
 .contact-info-ul li{
 	list-style-type: none;
