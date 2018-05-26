@@ -30,6 +30,7 @@
 		// 	'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'new_volume' ),
 		// 	'after'  => '</div>',
 		// ) );
+		dynamic_sidebar( 'contact-info-about' );
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

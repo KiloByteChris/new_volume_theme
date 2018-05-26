@@ -122,6 +122,15 @@ function new_volume_widgets_init() {
 		'before_title'  => '<h4 class="widget-title">',
 		'after_title'   => '</h4>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Contact Info About', 'contact-info-about' ),
+		'id'            => 'contact-info-about',
+		'description'   => esc_html__( 'Add widgets here.', 'new_volume' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
+	) );
 }
 add_action( 'widgets_init', 'new_volume_widgets_init' );
 

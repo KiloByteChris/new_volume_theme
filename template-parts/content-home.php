@@ -11,6 +11,7 @@
 
 	<div id="home-page-content" class="entry-content home-page-content">
 		<?php
+		
 		//the_content();
 		the_content( sprintf(
 			wp_kses(

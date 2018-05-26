@@ -12,6 +12,7 @@
 	<div class="entry-content contact-page-content">
 		<?php
 		the_title( '<h2 class="entry-title">', '</h2>' );
+		dynamic_sidebar( 'contact-form' );
 		//the_content();
 		the_content( sprintf(
 			wp_kses(

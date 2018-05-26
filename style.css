@@ -485,7 +485,7 @@ ul, ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
@@ -762,6 +762,11 @@ a:hover, a:active {
 
 	}
 
+	.widget_custom_html #custom_html-2 {
+		width: 90% !important;
+		font-sixe: 2em;
+	}
+
 }
 
 .site-main .comment-navigation, .site-main
@@ -885,7 +890,7 @@ a:hover, a:active {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 1.5em;
+	/* margin: 0 0 1.5em; */
 	/* Make sure select elements fit in widgets. */
 }
 
@@ -1381,6 +1386,30 @@ aside {
 .submit {
 	width: inherit;
 }
+/*********************************************************
+******************** WIDGET ***************************
+*********************************************************/
+.widget {
+}
+
+.widget-title {
+	margin-left: -40px;
+	font-family: 'gugi', 'tahoma';
+	margin-right: 20px;
+	font-weight: 300;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+.contact-info-ul {
+	margin-left: -75px;
+	list-style-type: none;
+}
+
+.contact-info-ul li{
+	list-style-type: none;
+}
+
 /*********************************************************
 ******************** Footer ***************************
 *********************************************************/
