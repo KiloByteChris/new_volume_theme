@@ -113,6 +113,7 @@ pre {
 
 a {
 	background-color: transparent;
+	text-decoration: none;
 }
 
 /**
@@ -631,6 +632,43 @@ a:focus {
 
 a:hover, a:active {
 	outline: 0;
+	text-decoration: underline;
+}
+
+nav a {
+	font-size: 1.7em;
+}
+
+nav a:active {
+	font-size: 1.7em;
+	text-decoration: underline;
+}
+
+nav li {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+.widget li a {
+	color: #3A2F8A;
+}
+.widget li a:hover {
+	color: #808080;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color: #808080;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #808080
+	text-decoration: underline;
+}
+
+.entry-footer a{
+	color: #3A2F8A;
 }
 
 /*--------------------------------------------------------------
@@ -715,7 +753,6 @@ a:hover, a:active {
 	transition: opacity .5s;
 }
 
-
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -745,50 +782,10 @@ a:hover, a:active {
 		float: right;
 	}
 
-	nav a {
-		font-size: 1.7em;
-	}
-
-	nav a:active {
-		font-size: 1.7em;
-		text-decoration: underline;
-	}
-
-	nav li {
-		list-style-type: none;
-		margin-bottom: 10px;
-	}
-
-	a {
-		color: #3A2F8A;
-	}
-	.widget li a {
-		color: #3A2F8A;
-	}
-	.widget li a:hover {
-		color: #808080;
-		text-decoration: underline;
-	}
-
-	nav a:hover {
-		color: #808080;
-		text-decoration: underline;
-	}
-
-	a:hover {
-		color: #808080
-		text-decoration: underline;
-	}
-
-	.entry-footer {
-
-	}
-
 	.widget_custom_html #custom_html-2 {
 		width: 90% !important;
 		font-sixe: 2em;
 	}
-
 }
 
 .site-main .comment-navigation, .site-main
@@ -1103,22 +1100,6 @@ section {
 	margin: 10px auto;
 	border-radius: 5px;
 }
-/* .homepage-article{
-	background-color: rgba(0,0,0,0) !important;
-	color: #000;
-	font-weight: 700;
-} */
-
-/* .homepage-article section{
-	background-color: RGBA(240, 245, 242, .8);
-} */
-
-/* .content-section {
-	background-color: RGBA(240, 245, 242, .95);
-	width: 90%;
-	margin: 10px auto;
-	border-radius: 5px;
-} */
 
 aside {
 	background-color: RGBA(240, 245, 242, .95);
@@ -1150,15 +1131,6 @@ h2 {
 	padding-top: 10px;
 }
 
-/* .content-section p {
-	font-family: "nanum gothic coding";
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-} */
-
 article p {
 	font-family: "nanum gothic coding";
 	margin-left: 20px;
@@ -1173,7 +1145,6 @@ article p {
 }
 
 .content-section li {
-	/* margin-left: -20px; */
 	list-style-type: circle;
 	line-height: 1.5em;
 }
@@ -1236,10 +1207,6 @@ header {
 	color: #000;
 }
 
-a {
-	text-decoration: none;
-}
-
 .menu-toggle {
 	position: fixed;
 	top: 0;
@@ -1254,25 +1221,6 @@ a {
 .menu-toggle:hover {
 	color: #ddd;
 }
-
-/* #primary-menu {
-	text-align: center;
-}
-
-#primary-menu li{
-	font-size: 1.2em;
-	display: inline-block;
-	margin: 0 auto;
-	width: initial;
-}
-
-.main-navigation a {
-	display: inline-block;
-	margin: 0 auto;
-	width: initial;
-	float: left;
-	text-align: center;
-} */
 
 /*********************************************************
 ******************** HOME PAGE ***************************
@@ -1294,29 +1242,6 @@ a {
 	opacity: 0;
 }
 
-
-/*
-.home-page-content {
-	background-color: RGBA(240, 245, 242, .8);
-	width: 90%;
-	margin: 15px auto;
-	border-radius: 5px;
-}
-
-#home-title {
-	font-family: 'gugi', 'tahoma';
-	font-weight: 300;
-	margin-left: 25px;
-	font-size: 1.5em;
-}
-
-.home-paragraph {
-	font-family: "nanum gothic coding";
-	margin-left: 40px;
-	margin-top: 10px;
-}
-*/
-
 /*********************************************************
 ******************** BLOG PAGE ***************************
 *********************************************************/
@@ -1335,19 +1260,6 @@ a {
 	margin-left: 20px;
 	font-family: "nanum gothic coding";
 }
-
-/* .entry-content {
-	background-color: RGBA(240, 245, 242, .95);
-} */
-
-/* .entry-content p {
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 20px;
-	background-color: RGBA(240, 245, 242, .95);
-	border-radius: 5px;
-	font-family: "nanum gothic coding";
-} */
 
 section h3 {
 	font-family: 'gugi', 'tahoma';
@@ -1427,20 +1339,6 @@ aside {
 /*********************************************************
 ******************** WIDGET ***************************
 *********************************************************/
-/* .widget-title {
-	margin-left: -40px;
-	font-family: 'gugi', 'tahoma';
-	margin-right: 20px;
-	font-weight: 300;
-	font-size: 1.2em;
-	padding-top: 10px;
-} */
-
-/* .contact-info-ul {
-	margin-left: -75px;
-	list-style-type: none;
-} */
-
 .contact-info-ul li{
 	list-style-type: none;
 }
