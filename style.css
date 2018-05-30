@@ -455,6 +455,34 @@ big {
 	font-size: 125%;
 }
 
+/*-- Fonts --*/
+.comments-title,
+section h3,
+.entry-title,
+#homeName,
+.site-description,
+.site-title,
+.page-title,
+.section-title,
+.widget-title {
+	font-family: 'gugi', 'tahoma', 'sans-serif';
+}
+
+
+
+.site-footer, .form-submit,
+.comment-form-cookies-consent,
+.comment-notes,
+.comment-content,
+.entry-footer,
+.posted-on,
+article p,
+article li,
+label,
+.submit{
+	font-family: "nanum gothic coding", 'tahoma', 'sans-serif';
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -1123,7 +1151,6 @@ h2 {
 }
 
 .section-title {
-	font-family: 'gugi', 'tahoma';
 	font-weight: 300;
 	margin-left: 20px;
 	margin-bottom: 10px;
@@ -1132,7 +1159,6 @@ h2 {
 }
 
 article p {
-	font-family: "nanum gothic coding";
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 10px;
@@ -1190,7 +1216,6 @@ header {
 }
 
 .site-title {
-	font-family: 'gugi', 'tahoma', 'sans-serif';
 	font-size: 2em;
 	text-decoration: none;
 	text-align: center;
@@ -1198,7 +1223,6 @@ header {
 }
 
 .site-description {
-	font-family: 'gugi', 'tahoma', 'sans-serif';
 	font-size: 1.5em;
 	text-decoration: none;
 	text-align: center;
@@ -1226,7 +1250,6 @@ header {
 ******************** HOME PAGE ***************************
 *********************************************************/
 #homeName {
-	font-family: 'gugi', 'tahoma';
 	margin-left: 10px;
 	margin-right: 20px;
 	margin-top: 0px;
@@ -1250,7 +1273,6 @@ header {
 }
 
 .entry-title {
-	font-family: 'gugi', 'tahoma';
 	margin-left: 20px;
 	margin-right: 20px;
 	border-bottom: 1px solid #000;
@@ -1258,11 +1280,9 @@ header {
 
 .posted-on {
 	margin-left: 20px;
-	font-family: "nanum gothic coding";
 }
 
 section h3 {
-	font-family: 'gugi', 'tahoma';
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 0px;
@@ -1281,7 +1301,6 @@ main header {
 }
 
 .entry-footer{
-	font-family: "nanum gothic coding";
 	margin-left: 15px;
 	padding-bottom: 10px;
 }
@@ -1309,7 +1328,6 @@ aside {
 .comments-title {
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: 'gugi', 'tahoma';
 }
 
 .comment-body {
@@ -1319,23 +1337,21 @@ aside {
 .comment-notes {
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: "nanum gothic coding";
 }
 
 .comment-form-cookies-consent {
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: "nanum gothic coding";
 }
 
 .form-submit {
-	font-family: "nanum gothic coding";
 	font-size: 1.5em;
 	padding-bottom: 10px;
 }
 .submit {
 	width: inherit;
 }
+
 /*********************************************************
 ******************** WIDGET ***************************
 *********************************************************/
@@ -1348,7 +1364,6 @@ aside {
 *********************************************************/
 .site-footer {
 	background-color: RGBA(240, 245, 242, .95);
-	font-family: "nanum gothic coding";
 }
 
 .site-info{
