@@ -1080,6 +1080,16 @@ main {
 
 }
 
+#content {
+	min-height: 500px;
+}
+
+@media screen and (min-width: 37.5em) {
+	#content {
+		min-height: 1000px;
+	}
+}
+
 article {
 	background-color: RGBA(240, 245, 242, .8);
 	width: 90%;
@@ -1276,9 +1286,15 @@ a {
 	line-height: 1.2em;
 }
 
+#homeScreenDiv {
+	height: 100%;
+}
+
 .homepage-section {
 	opacity: 0;
 }
+
+
 /*
 .home-page-content {
 	background-color: RGBA(240, 245, 242, .8);
