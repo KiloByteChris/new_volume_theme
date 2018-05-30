@@ -1146,7 +1146,7 @@ h2 {
 .page-title {
 	margin-left: 20px;
 	padding: 10px;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-weight: 400;
 }
 
@@ -1154,7 +1154,7 @@ h2 {
 	font-weight: 300;
 	margin-left: 20px;
 	margin-bottom: 10px;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding-top: 10px;
 }
 
@@ -1211,8 +1211,9 @@ label {
 header {
 	background-color: RGBA(240, 245, 242, .95);
 	width: 100%;
-	border-bottom: 1px solid #000;
-	border-top: 1px solid #000;
+	/* border-bottom: 1px solid #000;
+	border-top: 1px solid #000; */
+	border: 1px solid #000;
 }
 
 .site-title {
@@ -1246,6 +1247,15 @@ header {
 	color: #ddd;
 }
 
+.contact-info-ul {
+	font-size: 1.3em;
+}
+
+.contact-page-ul {
+	/* margin-left: 35px; */
+	font-size: 1.3em;
+}
+
 /*********************************************************
 ******************** HOME PAGE ***************************
 *********************************************************/
@@ -1276,6 +1286,7 @@ header {
 	margin-left: 20px;
 	margin-right: 20px;
 	border-bottom: 1px solid #000;
+	font-size: 1.6em;
 }
 
 .posted-on {
@@ -1301,8 +1312,11 @@ main header {
 }
 
 .entry-footer{
-	margin-left: 15px;
 	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	background-color: RGBA(240, 245, 242, .95);
+	width: 100%;
 }
 
 .comments-link {
