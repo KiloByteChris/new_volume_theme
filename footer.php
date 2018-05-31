@@ -16,23 +16,6 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<p>&copy 2018 Chris McGuire</p>
-			<p>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'new_volume' ) ); ?>">
-				<?php
-					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Proudly powered by %s', 'new_volume' ), 'WordPress' );
-				?>
-				</a>
-
-			<!-- <span class="sep"> | </span> -->
-
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'new_volume' ), 'new_volume', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-
-			</p>
-
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
