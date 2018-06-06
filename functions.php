@@ -114,8 +114,8 @@ function new_volume_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
-		'name'          => esc_html__( 'Contact', 'contact-form' ),
-		'id'            => 'contact-form',
+		'name'          => esc_html__( 'Header Contact', 'header-contact' ),
+		'id'            => 'header-contact',
 		'description'   => esc_html__( 'Add widgets here.', 'new_volume' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -149,7 +149,8 @@ function new_volume_scripts() {
 	wp_enqueue_style( 'Nanum Gothic Coding', 'https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
 
 	// Font Aweseome
-	wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+	// wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+	wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
